@@ -1,0 +1,255 @@
+* {
+	font-family: Wondercity;
+}
+body {
+	background-color: #FFE1ED;
+}
+navbar {
+	padding: 10px;
+	top: 0;
+	z-index: 1000;
+	overflow: hidden;
+	transition: top 0.3s;
+}
+navbar ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 3rem;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0;
+}
+navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+}
+navbar a:hover {
+    color: #f95d9f;
+}
+h1 {
+	background-color: #D9BFCA;
+	text-align: center;
+	padding: 10px;
+}
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #FFE1ED;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 20px;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: deeppink;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: black;
+}
+
+.sidenav .closebtn {
+  position: static;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: block;
+  border: none;
+  background: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+.sidenav a:hover, .dropdown-btn:hover {
+  color: deeppink;
+  background-color: pink;
+}
+.active {
+  color: black;
+}
+.dropdown-container {
+  display: none;
+  width: 100%;
+  background-color: #FFE1ED;
+  margin-top: 10px;
+}
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+.hero {
+	height: 800px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 7rem 2rem;
+	position: relative;
+}
+ .hero-content {
+   	max-width: 900px;
+   	margin: 0 auto 4rem;
+   	padding: 2rem;
+   	border-radius: 20px;
+}
+.hero-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+}
+.hero-content p {
+	margin: 0;
+    font-size: 1.1px;
+    line-height: 1.6;
+    margin-bottom: 1px;
+    text-align: justify;
+}
+.container {
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.recipe-grid {
+	display: grid;
+	gap: 1rem;
+	padding: 1rem;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.recipe-card {
+	background: wheat;
+	border-radius: 15px;
+	overflow: hidden;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s;
+	padding-bottom: 25px;
+}
+.recipe-card:hover {
+	transform: translateY(-5px);
+}
+.recipe-image {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+.recipe-content {
+	padding: 20px;
+	padding-bottom: 2px;
+}
+.recipe-title {
+	color: black;
+	margin-bottom: 0.5rem;
+	font-size: 1.25rem;
+}
+.recipe-desc {
+	color: #666;
+	margin-bottom: 1rem;
+}
+.recipe-info {
+	display: flex;
+	justify-content: space-between;
+	color: #4ECDC4;
+	font-weight: bold;
+	padding: 20px;
+}
+p {
+	text-align: justify;
+	font-size: 15px;
+	color: black;
+	float: left;
+}
+h2 {
+	background-color: #D9BFCA;
+}
+div {
+	padding: 3px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	background-color: white;
+	margin-top: 90px;
+	margin-left: 20px;
+	margin-right: 50px;
+	position: relative;
+}
+img {
+	width: 150px;
+	height: 200px;
+	margin: 5px;
+}
+.border {
+	border-style: dashed;
+	border-color: darkbrown;
+	border-radius: 10px;
+}
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.footer {
+	background-color: #FFE1ED;
+	text-align: center;
+}
+.socialIcons{
+	background-color: #f9cde1;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	padding: 20px;
+}
+.socialIcons a{
+	text-decoration: none;
+	padding: 10px;
+	background-color: #f53a78;
+	margin: 10px;
+	border-radius: 50%;
+}
+.socialIcons a i{
+	font-size: 2em;
+	color: #f9cde1;
+	opacity: 0.9;
+}
+.socialIcons a:hover{
+	background-color: hotpink;
+	transition: 0.5s;
+}
+.socialIcons a:hover i{
+	color: lightpink;
+	transition: 0.5s;
+}
+.footer p{
+	color: black;
+	display: flex;
+}
